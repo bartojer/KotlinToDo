@@ -1,0 +1,11 @@
+Who does what?
+
+Jeremy:
+To-do classes
+
+Roger:
+read / write files?
+
+Austin:
+main menu
+checkbox
