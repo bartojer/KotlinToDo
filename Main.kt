@@ -1,4 +1,6 @@
 fun main() {
+    var menu = menu()
+
     println("Welcome to your to do list.")
     println("Pick a number from the following list.")
 
@@ -10,13 +12,13 @@ fun main() {
         option = readln()
 
         when (option) {
-            "1" -> println("View list here")
+            "1" -> menu.display()
             "2" -> println("Add new item(s)")
             "3" -> println("Marked as complete")
             "4" -> println("Remove item(s)")
             "5" -> {
                 println("Saving...\nGoodbye")
-                // add functionality to save list as it closes
+                // add functionality to save before end program.
                 break // breaks out of loop
             }
             else -> println("Invalid option. Please select from the list.")
