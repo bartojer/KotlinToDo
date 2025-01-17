@@ -1,7 +1,4 @@
 fun main() {
-//    println("Hello World!")
-
-
     println("Welcome to your to do list.")
     println("Pick a number from the following list.")
 
@@ -19,6 +16,7 @@ fun main() {
             "4" -> println("Remove item(s)")
             "5" -> {
                 println("Saving...\nGoodbye")
+                // add functionality to save list as it closes
                 break // breaks out of loop
             }
             else -> println("Invalid option. Please select from the list.")
